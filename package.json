@@ -1,13 +1,13 @@
 {
   "name": "@moshie/datocms-plugin-extended-structured-text",
-  "description": "Extended Structured text marks and formats",
+  "description": "Extends Structured text fields to add additional marks and block styles",
   "homepage": "https://github.com/moshie/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moshie/datocms-plugin-extended-structured-text.git"
   },
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "David Hewitt hello@wp-unite.io",
   "type": "module",
   "keywords": [
