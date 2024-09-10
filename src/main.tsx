@@ -22,7 +22,7 @@ connect({
 			}
 		]
 	},
-	customMarksForStructuredTextField(field: Field, _ctx: FieldIntentCtx) {
+	customMarksForStructuredTextField(_field: Field, _ctx: FieldIntentCtx) {
 		return [
 			{
 				id: 'align-justify',

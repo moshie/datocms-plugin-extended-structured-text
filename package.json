@@ -1,24 +1,32 @@
 {
-  "name": "datocms-plugin-<INSERT-YOUR-PACKAGE-NAME-HERE>",
-  "description": "<INSERT-YOUR-PLUGIN-DESCRIPTION-HERE>",
-  "homepage": "https://github.com/<USER>/<REPO>",
+  "name": "@moshie/datocms-plugin-extended-structured-text",
+  "description": "Extended Structured text marks and formats",
+  "homepage": "https://github.com/moshie/",
+  "repository": "https://github.com/moshie/datocms-plugin-extended-structured-text/",
   "private": false,
-  "version": "0.1.0",
-  "author": "<YOUR-NAME> <<YOUR-EMAIL>>",
+  "version": "1.0.0",
+  "author": "David Hewitt hello@wp-unite.io",
   "type": "module",
   "keywords": [
-    "datocms-plugin"
+    "datocms",
+    "datocms-plugin",
+    "plugin",
+    "superscript",
+    "subscript",
+    "text-format",
+    "structuredtext",
+    "format"
   ],
   "datoCmsPlugin": {
     "title": "Extended Structured Text",
-    "coverImage": "docs/cover-1200x800.png",
-    "previewImage": "docs/preview.mp4",
+    "coverImage": "cover.png",
+    "previewImage": "cover.png",
     "entryPoint": "dist/index.html",
     "permissions": []
   },
   "files": [
     "dist",
-    "docs"
+    "cover.png"
   ],
   "scripts": {
     "dev": "vite",
