@@ -2,7 +2,10 @@
   "name": "@moshie/datocms-plugin-extended-structured-text",
   "description": "Extended Structured text marks and formats",
   "homepage": "https://github.com/moshie/",
-  "repository": "https://github.com/moshie/datocms-plugin-extended-structured-text/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshie/datocms-plugin-extended-structured-text.git"
+  },
   "private": false,
   "version": "1.0.0",
   "author": "David Hewitt hello@wp-unite.io",
@@ -47,5 +50,13 @@
     "globals": "^15.9.0",
     "typescript": "^5.5.3",
     "vite": "^5.4.1"
+  },
+  "main": "dist/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moshie/datocms-plugin-extended-structured-text/issues"
   }
 }
