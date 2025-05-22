@@ -10,6 +10,15 @@ connect({
 	customBlockStylesForStructuredTextField(_field: Field, _ctx: FieldIntentCtx) {
 		return [
 			{
+				id: "display",
+				label: "Display Heading",
+				node: "heading",
+				appliedStyle: {
+					fontSize: "68px",
+					lineHeight: "76px",
+				},
+			},
+			{
 				id: "lead",
 				label: "Lead",
 				node: "paragraph",
