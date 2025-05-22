@@ -1,62 +1,59 @@
 {
-  "name": "@moshie/datocms-plugin-extended-structured-text",
-  "description": "Extended Structured text marks and formats",
-  "homepage": "https://github.com/moshie/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moshie/datocms-plugin-extended-structured-text.git"
-  },
-  "private": false,
-  "version": "1.0.3",
-  "author": "David Hewitt hello@wp-unite.io",
-  "type": "module",
-  "keywords": [
-    "datocms",
-    "datocms-plugin",
-    "plugin",
-    "superscript",
-    "subscript",
-    "text-format",
-    "structuredtext",
-    "format"
-  ],
-  "datoCmsPlugin": {
-    "title": "Extended Structured Text",
-    "coverImage": "cover.png",
-    "previewImage": "cover.png",
-    "entryPoint": "dist/index.html",
-    "permissions": []
-  },
-  "files": [
-    "dist",
-    "cover.png"
-  ],
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "prepublishOnly": "npm run build"
-  },
-  "dependencies": {
-    "datocms-plugin-sdk": "^1.1.0",
-    "datocms-react-ui": "^1.1.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "globals": "^15.9.0",
-    "typescript": "^5.5.3",
-    "vite": "^5.4.1"
-  },
-  "main": "dist/index.html",
-  "directories": {
-    "doc": "docs"
-  },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/moshie/datocms-plugin-extended-structured-text/issues"
-  }
+	"name": "@moshie/datocms-plugin-extended-structured-text",
+	"description": "Extended Structured text marks and formats",
+	"homepage": "https://github.com/moshie/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/moshie/datocms-plugin-extended-structured-text.git"
+	},
+	"private": false,
+	"version": "1.0.5",
+	"author": "David Hewitt hello@wp-unite.io",
+	"type": "module",
+	"keywords": [
+		"datocms",
+		"datocms-plugin",
+		"plugin",
+		"superscript",
+		"subscript",
+		"text-format",
+		"structuredtext",
+		"format"
+	],
+	"datoCmsPlugin": {
+		"title": "Extended Structured Text",
+		"coverImage": "cover.png",
+		"previewImage": "cover.png",
+		"entryPoint": "dist/index.html",
+		"permissions": []
+	},
+	"files": ["dist", "cover.png"],
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"preview": "vite preview",
+		"prepublishOnly": "npm run build"
+	},
+	"dependencies": {
+		"datocms-plugin-sdk": "^1.1.0",
+		"datocms-react-ui": "^1.1.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"globals": "^15.9.0",
+		"typescript": "^5.5.3",
+		"vite": "^5.4.1"
+	},
+	"main": "dist/index.html",
+	"directories": {
+		"doc": "docs"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/moshie/datocms-plugin-extended-structured-text/issues"
+	}
 }
